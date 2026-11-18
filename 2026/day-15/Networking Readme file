@@ -1,0 +1,51 @@
+to day i will learnign about the ip address, dns, tcp/udp
+we will be learning about the 
+i will understaing about the DNS 
+you enter the DNS WWW>EXample.com query like on browser(client) it will take dns query go to root dns server and ago to the ask.com
+first cacheing will happen (its liek speed dail) your local system will do the caching when you enter the nslookup then the ipadddress will be save the details
+root dns it slike the telephone directory
+from there it go to the TLD server (Top level domain) example like google server like 8.8.8.8 
+from there it goes to authoristy sDYN server then it feel it auth
+www.example.com (root level domain will verify then top level the .in,.com,.org will verify the TLD 
+first tcheck thecache then dns resolver then root server from there dns resolver the tld server and then authoritative server and then  website and then computer
+how does the data moves in the internet
+application -presentation-session-transport(TCP/UDP) layer, network laye(IP address) Data layer9Cables link to data layer)-physical layer (cables ) (OSI model )
+in tcp data will in and out however in udp its not gaurantee that it will send the output 
+in presentation level certificates , encriyption will see that then it goes gtos eession and then tcp.udp throught the and then it goes to network layer from there physical layer and datalayer
+application layer transport layer internet layer access layer (TCP/IP model)
+in transport layer we call as L4 we have TCP and UDP 
+TCP work on client server model work based on sync of request then accept will you accept too then its 100% data will be transfered 
+SSH always uses the TCP 
+SMTP simple mail transport protocol 9 example email 
+IN UDP no garanty that data will reach 100%
+
+
+HOw security works  (Firewall -)
+ingress (incoming ) or egreess (outgoing traffic)
+packets it has packet in network layer it has ip address right now i installed the nginx application when i enter the ip address it shows the site is not reaching  
+sudo systemctl start inginx i will not be reaching out to the server then nginx will enable 
+if we need to add the 'S' to the certbot will Tranport layer security (TLS certificate) SSL is outdate 
+UFW(complicated firewall) go to security we need to allow the 443 for HTTPS in inbound rules we need to add
+HTTPS: 443 HTTP:80 SSH : 22  MYSQL: 3306 Smtp: 25 
+VPC( virtual private network) i can keep 2 subnets one as Private 
+if i want to give access to publicj then that will call as INternet gate way in public network 
+i would like to give in private network , you can all ip addres then we give CIDR, 
+i dont NAT (netwrok access transport)  if i want to have public and private sub but i dont want to public of private so we use NAT , we will combine all and then give one 
+NAT gateway allows private resources to access the internet from any avaiblibity zone  with in a VPC create the VPN then 
+
+System Design AN how to design Applications: ?
+cost are involved 
+scale is involved
+data flow is involved
+Requirements are clear  (front end and backend )
+why the system design is inmportant and what are componenets
+we learnt already linux,then networking, vpc, and system design we are going to create ci/cd,k8's create the task creating with AI 
+ui React backend golanfg we have email based authentication 
+UI i need to create we take REACt,javascript.HTML (this is called presentation tier) GOlang 9( we are going to create Backend) logical tier
+frond end will speak with API then i use AI models  use calls python service  we have some function then i will consider grpc to communicate backend to backend
+i use the grpc because it is so fast , all th data is stored in some place rtight so we use either posgress, mongodb, no SQL data based and also to save the user i use SQL  this is know as data base layer and then we use authentication so i use JWT authentication service it will speaks with ui,backed say and user sql need to speak with it from ui i need to notification i use ui if notification i use web soucket if i want ot scale it then we create gateway layer and then
+then loadbalancer the user will first reach out to the loadbalancer then it distribute suppose i want to scale this thenwhat i use K8's, you also check the monitoring prometues and to display we need grafanna
+now i have all the Services all this is considered as Micor service aArchiteture , if regularly i was fetching details daily then i use reddis for caches 
+
+we have three things  microservices, monolith ,monorepo( one repository code will be written )
+
