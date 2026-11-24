@@ -1,0 +1,59 @@
+Today we will be learning about the Shell scripting 
+Topic of linux Volume management today, Shell Scripting for devops
+
+we learnt about the if conditions and loops too , now we are goignt o learn more about in depth fro this week compulsary i have to comeplete the Scripting
+by the 29th october
+shell scripting is collection of shell commands we will make executable for kernel and it works there
+
+Then vim hello.sh ( if we use the vim it create the file and extention is .sh) why cant we use touch if we vim editor will open and it will create the file and editor too
+if i want use the print then i use echo it will printwhatever it will print it 
+if i want to run the i want the same through shel scripting 
+i willl edit the vim by entering echo "hello dosto ka file  and then i enter the ls-l we will be seeing the files
+i want ot give now can i execute it now we have to run chmod 774 then i search the chmod 764 hello.sh (its fiel name )
+then i will search with ls-l it eill give file in green color
+now i can exeuctr hwo we will do ,/hello.sh ( we will be printing the )ls
+now i just wanna do scripts then we will using the techinique
+ i use the vim and chmod and give the roots 
+we need to write if i want to edit then same way edit it in same way 
+based on scripts we will write when we write something in shell scripting we write the information 
+by default : SH  ubuntu : bash : if we need to mention whihc we are using the shell 
+#!/bin/sh Shebang 9 we write becuase the kernal will easily come to know for whhc the scripting is written 9by defauly SH)
+
+#!/bin/bash
+now i want to learned how to add the small
+looking the things in big picture 
+env if i search printenv it will give all details of all the enviornment 
+when you want ot check the curretn user is By searc doing Echi "current user is $user" then you will see
+now we are goign to see COnstant and variable 
+constant means which cant be changed varibale means it alwasy changesa s per the requirement 
+i can define 
+# say comment hojatha hy ( now i will add the variable Practise)
+if you enter give +x you give executive 
+chmod 774 file name '
+./variables.sh then it will work
+if i change the name it should reflect then values and avariables can we check 
+ifread -p :"enter your name:"name
+Echo "my name is $name" if you do this you will enter name that will be added to ename folder 
+if i want to isntall the packeges then i enter
+
+!/bin/bash 
+
+# this script takes the packges name from user and installs it 
+
+read -p "enter the name packaged name" Package_name
+
+echo "updating system & installing $pacakge_name"
+Sudo apt-get update
+sudo apt install $pacakge_name -y
+follow the process to install the application which ever you want to do it 
+now i am again if commnad and loops now , i am trying to add vim its failing me that i dont see the directory 
+# IF condition --- is used to check whether this ot that
+# If -- then
+
+if [ -f "/etc/passwd" ] then 
+       echo "file Exists"
+
+else 
+       echo "file doesn't exist"
+
+today i am going to see the dpkg ( whenever we see /dev/null ignore the repsosne)
